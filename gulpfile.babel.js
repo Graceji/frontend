@@ -7,7 +7,7 @@ let bs = browersync.create();
 
 gulp.task('default', () => console.log(browersync.create)); 
 
-gulp.task('test', () => {
+gulp.task('run', () => {
   let proxy = proxyMiddleware(['/api'], {
     target: 'http://192.168.1.87:8080',
     changeOrigin: true
