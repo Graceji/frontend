@@ -16,10 +16,12 @@
     "babel-preset-es2015": "^6.13.2",
     "browser-sync": "^2.14.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
     "gulp-include-html": "^1.0.11",
     "gulp-minify-css": "^1.2.4",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
-    "http-proxy-middleware": "^0.17.0"
+    "http-proxy-middleware": "^0.17.0",
+    "pump": "^1.0.1"
   }
 }
